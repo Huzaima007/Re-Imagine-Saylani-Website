@@ -4,7 +4,7 @@ document.addEventListener("DOMContentLoaded", function () {
     counters.forEach((counter) => {
       let target = +counter.getAttribute("data-val");
       let count = 0;
-      let speed = target / 50; // Adjust speed
+      let speed = target / 50; 
     
       function updateCount() {
         if (count < target) {
@@ -20,18 +20,3 @@ document.addEventListener("DOMContentLoaded", function () {
     });
   });
   
-// let valueDisplays = document.querySelectorAll(".num");
-// let interval = 4000;
-
-// valueDisplays.forEach((valueDisplay) => {
-//   let startValue = 0;
-//   let endValue = parseInt(valueDisplay.getAttribute("data-val"));
-//   let duration = Math.floor(interval / endValue);
-//   let counter = setInterval(function () {
-//     startValue += 1;
-//     valueDisplay.textContent = startValue;
-//     if (startValue == endValue) {
-//       clearInterval(counter);
-//     }
-//   }, duration);
-// });
