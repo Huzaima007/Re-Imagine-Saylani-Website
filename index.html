@@ -12,34 +12,55 @@
       rel="stylesheet"
     />
     <script src="https://cdn.tailwindcss.com"></script>
-    <link rel="stylesheet" href="./Assets/index.css">
+    <link rel="stylesheet" href="./Assets/index.css" />
   </head>
   <body class="bg-white-900 flex items-center justify-center min-h-screen">
-    <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-6 px-6 w-full max-w-5xl">
-      <div class="bg-[#0d6db7] card text-white p-12 mt-3 mb-2 rounded-lg flex flex-col items-center border-b-4 [border-color:#8dc63f] shadow-[0px_5px_15px_rgba(0,0,0,0.35)]">
-        <i class="fas fa-utensils text-[#8dc63f] text-5xl"></i>
+    <div
+      class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-6 px-6 w-full max-w-5xl"
+    >
+      <div
+        class="bg-[#0d6db7] card text-white p-12 mt-3 mb-2 rounded-lg flex flex-col items-center border-b-4 [border-color:#8dc63f] shadow-[0px_5px_15px_rgba(0,0,0,0.35)] relative overflow-hidden card"
+      >
+        <div class="anim-layer"></div>
+        <i class="fas fa-utensils text-5xl"></i>
         <span class="num text-4xl font-bold mt-3" data-val="300000">000</span>
         <span class="text text-white-300 text-lg mt-2">Food</span>
         <span class="text text-white-300 text-lg">(Daily)</span>
       </div>
-      
-      <div class="bg-[#0d6db7] card text-white p-12 mt-3 mb-2 rounded-lg flex flex-col items-center border-b-4 [border-color:#8dc63f] shadow-[0px_5px_15px_rgba(0,0,0,0.35)]">
-        <i class="fas fa-people-arrows text-[#8dc63f] text-5xl"></i>
-        <span class="num text-4xl font-bold mt-3" data-val="20000">000</span>
-        <span class="text text-white-300 text-lg mt-2">Family Adoption</span>
-        <span class="text text-white-300 text-lg">(Montly)</span>
 
+      <div
+        class="bg-[#0d6db7] text-white p-12 mt-3 mb-2 rounded-lg flex flex-col items-center border-b-4 [border-color:#8dc63f] shadow-[0px_5px_15px_rgba(0,0,0,0.35)] relative overflow-hidden card"
+      >
+        <div class="anim-layer"></div>
+        <i
+          class="fas fa-people-arrows text-5xl relative z-10"
+        ></i>
+        <span class="num text-4xl font-bold mt-3 relative z-10" data-val="20000"
+          >000</span
+        >
+        <span class="text text-white-300 text-lg mt-2 relative z-10"
+          >Family Adoption</span
+        >
+        <span class="text text-white-300 text-lg relative z-10">(Monthly)</span>
       </div>
-      
-      <div class="bg-[#0d6db7] card text-white p-12 mt-3 mb-2 rounded-lg flex flex-col items-center border-b-4 [border-color:#8dc63f] shadow-[0px_5px_15px_rgba(0,0,0,0.35)]">
-        <i class="fas fa-school text-[#8dc63f] text-5xl"></i>
+
+      <div
+        class="bg-[#0d6db7] card text-white p-12 mt-3 mb-2 rounded-lg flex flex-col items-center border-b-4 [border-color:#8dc63f] shadow-[0px_5px_15px_rgba(0,0,0,0.35)] relative overflow-hidden card"
+      >
+        <div class="anim-layer"></div>
+
+        <i class="fas fa-school text-5xl"></i>
         <span class="num text-4xl font-bold mt-3" data-val="25000">000</span>
         <span class="text text-white-300 text-lg mt-2">Education</span>
         <span class="text text-white-300 text-lg">(Montly)</span>
       </div>
-      
-      <div class="bg-[#0d6db7] card text-white p-12 mt-3 mb-2 rounded-lg flex flex-col items-center border-b-4 [border-color:#8dc63f] shadow-[0px_5px_15px_rgba(0,0,0,0.35)]">
-        <i class="fas fa-suitcase-medical text-[#8dc63f] text-5xl"></i>
+
+      <div
+        class="bg-[#0d6db7] card text-white p-12 mt-3 mb-2 rounded-lg flex flex-col items-center border-b-4 [border-color:#8dc63f] shadow-[0px_5px_15px_rgba(0,0,0,0.35)] relative overflow-hidden card"
+      >
+        <div class="anim-layer"></div>
+
+        <i class="fas fa-suitcase-medical text-5xl"></i>
         <span class="num text-4xl font-bold mt-3" data-val="125000">000</span>
         <span class="text text-white-300 text-lg mt-2">Medical</span>
         <span class="text text-white-300 text-lg">(Montly)</span>
